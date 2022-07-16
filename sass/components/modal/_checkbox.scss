@@ -19,6 +19,10 @@
   border-radius: 2px;
   transition: background-color $anim, outline-color $anim;
 
+  .checkbox__input:focus & {
+    outline: 2px solid $color-accent;
+  }
+
   .checkbox__input:checked + & {
     background-color: $color-accent;
     outline-color: transparent;
