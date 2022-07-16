@@ -9,7 +9,7 @@
   --primary-grey-color: #2f303a;
   --box-border-color: #eee;
   --inactive-icon-color: #afb1b8;
-  --items: 3;
+  --items: 4;
   --indent: 30px;
   --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -84,7 +84,7 @@ p {
   gap: var(--indent);
 }
 
-.card-set-item {
+.card-set__item {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
@@ -253,13 +253,13 @@ p {
   background-color: var(--button-hover-color);
 }
 
-/* peculiarities section */
+/* benefits section */
 
-.pecs-list {
+.benefits__list {
   --items: 4;
 }
 
-.pecs-logo {
+.benefits__logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -272,12 +272,12 @@ p {
   transition: box-shadow var(--anim);
 }
 
-.pecs-item:hover .pecs-logo,
-.pecs-item:focus .pecs-logo {
+.benefits__item:hover .benefits__logo,
+.benefits__item:focus .benefits__logo {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.pecs-subtitle {
+.benefits__subtitle {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -286,7 +286,7 @@ p {
   text-transform: uppercase;
 }
 
-.pecs-text {
+.benefits__text {
   color: var(--secondary-text-color);
 
   font-size: 14px;
