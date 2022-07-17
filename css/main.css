@@ -483,7 +483,7 @@ p {
   margin-right: auto;
   max-width: 1600px;
   background-color: #2f303a;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../../images/hero/hero-background.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
